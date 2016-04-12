@@ -1,5 +1,5 @@
 #######################################################
-## Assignment: Assigning value to variables
+## 1. Assignment: Assigning value to variables
 #######################################################
 
 number 		= 42 					# Integer
@@ -15,7 +15,7 @@ myFunction	= -> print "Yay!"	# Function
 
 
 #######################################################
-## Conditional assignment: Checking if it's true
+## 2. Conditional assignment: Checking if it's true
 #######################################################
 
 number 		= -42 if opposite
@@ -26,7 +26,7 @@ opposite 	= true if foo is "Hello world!"
 
 
 #######################################################
-## Functions: Reuse code!
+## 3. Functions: Reuse code!
 #######################################################
 
 funcName	= (argument) -> print argument
@@ -42,7 +42,7 @@ square(15)
 
 
 #######################################################
-## Arrays: Grouping information using one varibale
+## 4. Arrays: Grouping information using one varibale
 #######################################################
 
 arrayName 	= ["zero","one","two","three"]
@@ -59,7 +59,7 @@ print winners
 
 
 #######################################################
-## Objects Literals: Similar to Arrays
+## 5. Objects Literals: Similar to Arrays
 #######################################################
 
 objectName =
@@ -74,7 +74,7 @@ print objectName
 
 
 #######################################################
-## Splats: the Etc of arguments
+## 6. Splats: the Etc of arguments
 #######################################################
 
 race = (winners, runners...) ->
@@ -83,7 +83,7 @@ race = (winners, runners...) ->
 ## Normally you have to pass in defined arguments into your functions but with splats you can pass in variable number of values into a catchall argument.
 
 #######################################################
-## Existence
+## 7. Existence
 #######################################################
 
 print "I knew it!" if elvis?

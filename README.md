@@ -11,4 +11,5 @@ A short and sweet reference guide for using CoffeeScript in Framer. This is a pr
 7. Existence
 
 A comprehensive guide to CoffeeScript can be found here: http://coffeescript.org/
+
 Framer documentation can be found here: http://framerjs.com/docs/

@@ -6,9 +6,9 @@ number 		= 42 					# Integer
 opposite 	= true 					# Boolean
 foo 		= "Hello world!" 		# String
 array 		= [1,2,3]				# Array
-object 		= v1:true, v2:false		# Object
+object 		= v1:true, v2:false	# Object
 splat 		= race					# Splat (See Splats)
-myFunction	= -> print "Yay!"	# Function
+myFunction	= -> print "Yay!"		# Function
 
 ## The basic building blocks of CoffeeScript are variables. Variables can have value or be empty (null). Some of the most common values that can be associated with variables are integers, booleans, strings, arrays, objects, splats, and functions. Variables can be reassigned at any time or be removed entirely.
 
@@ -92,6 +92,14 @@ print "I knew it!" if elvis?
 
 
 
+#######################################################
+## 8. String Interpolation
+#######################################################
+
+car = "Tesla"
+print "My favorite car is #{car}"
+
+## String Interpolation allows to you inject code into a string. The string will only print what is returned from the variable.
 
 
 

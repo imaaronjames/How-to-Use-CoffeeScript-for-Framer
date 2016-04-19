@@ -9,6 +9,7 @@ A short and sweet reference guide for using CoffeeScript in Framer. This is a pr
 5. Object literals
 6. Splats
 7. Existence
+8. String Interpolation
 
 A comprehensive guide to CoffeeScript can be found here: http://coffeescript.org/
 

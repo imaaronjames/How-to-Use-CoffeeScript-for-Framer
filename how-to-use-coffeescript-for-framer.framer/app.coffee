@@ -69,7 +69,7 @@ objectName =
 
 ## Object literals are very similar to arrays. they group informations together. The difference is that they group variables together instead of values.
 
-print objectName
+print objectName.greeting
 
 
 

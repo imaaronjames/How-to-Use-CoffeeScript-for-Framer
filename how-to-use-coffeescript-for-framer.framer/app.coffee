@@ -102,5 +102,28 @@ print "My favorite car is #{car}"
 ## String Interpolation allows to you inject code into a string. The string will only print what is returned from the variable.
 
 
+#######################################################
+## 9. Operators & Aliases
+###
+		is 					===
+		isnt 				!==
+		not 				!
+		and 				&&
+		or 					||
+		true, yes, on		true
+		false, no, off		false
+		@, this				this
+		of 					in
+		in					Checking in a For Loop
+###
 
 
+#######################################################
+## 10. Increment & Decrement Integers
+#######################################################
+
+points = 100
+print ++points # addes 1 to points to make 101
+print --points # subtracts 1 from points to make 100
+
+## To quickly add or subtract from an varibale integer, simply add ++ or -- and the 1 will be added or subtracted. Use this sparingly, as it can be considered dirty coding and difficult to debug. 

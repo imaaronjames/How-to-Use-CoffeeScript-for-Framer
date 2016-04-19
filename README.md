@@ -10,6 +10,8 @@ A short and sweet reference guide for using CoffeeScript in Framer. This is a pr
 6. Splats
 7. Existence
 8. String Interpolation
+9. Operators & Aliases
+10. Increment & Decrement Integers
 
 A comprehensive guide to CoffeeScript can be found here: http://coffeescript.org/
 
